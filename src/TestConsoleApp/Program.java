@@ -21,7 +21,7 @@ public class Program {
     public static void main(String[] args) {
 
         Logger logger1 = new ConsoleLogger();
-        List<Employee> list = new ArrayList<>();
+        List<Employee> list1 = new ArrayList<>();
         List<String> readText = getTextFromFile("employees.csv");
         readText.forEach(row -> {
             String[] splittedRow = row.split(";");
