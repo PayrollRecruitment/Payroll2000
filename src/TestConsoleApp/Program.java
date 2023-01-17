@@ -20,7 +20,7 @@ import java.util.List;
 public class Program {
     public static void main(String[] args) {
 
-        Logger logger = new ConsoleLogger();
+        Logger logger1 = new ConsoleLogger();
         List<Employee> list = new ArrayList<>();
         List<String> readText = getTextFromFile("employees.csv");
         readText.forEach(row -> {
